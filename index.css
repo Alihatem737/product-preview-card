@@ -1,0 +1,98 @@
+body{
+    background:#f6efe9 ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+
+
+    background-color: #FFFFFF;
+    width: 700PX;
+    display: flex;
+    border-radius: 16PX;
+    overflow: hidden;
+    margin-top: 100px;
+
+    
+    
+
+    
+}
+
+
+.image{
+   width: 50%;
+   
+   
+
+}
+
+.image img {
+    width: 100%;
+    background-size: cover;
+    display: block;
+    
+}
+
+.information{
+    width: 50%;
+    padding:32px ;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.name{
+    letter-spacing: 3px;
+    color: #888;
+    font-size: 12px;
+}
+h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: #555;
+   
+}
+
+p{
+    color: #555;
+}
+
+
+.price{
+    margin: 24px 0 ;
+    font-family: 'Fraunces', serif;
+}
+
+.new  {
+    font-size: 28px;
+    color:#4A816D ;
+    font-weight: bold;
+    font-weight: 700;
+
+}
+
+
+.old{
+    margin-left: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+
+button{
+    margin-top: 32px;
+    width: 100%;
+    padding: 14px;
+    background-color:#3D8168 ;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
